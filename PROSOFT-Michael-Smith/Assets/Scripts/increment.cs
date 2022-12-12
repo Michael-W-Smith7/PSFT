@@ -54,7 +54,7 @@ public class increment: MonoBehaviour
             timer = 0;
             currentNum++;
             
-            if(currentNum > 24)
+            if(currentNum > 17)
             {
                 scrollGameObject.position = new Vector3(scrollGameObject.position.x, scrollGameObject.position.y + (myText.preferredHeight / (currentNum - 1)), 0);
             }
